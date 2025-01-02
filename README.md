@@ -1,7 +1,7 @@
 # Configurazione MariaDB e phpMyAdmin con Docker su NixOS
 
 Dockerfile e docker-compose.yml presi da [qui](https://github.com/br0kenpixel/xampp2docker)
-e personalizzati per funzionare "out of the box" su NixOS.
+e personalizzati per funzionare "out of the box" su Project IDX (NixOS).
 
 ## Obiettivo
 Configurare un ambiente di sviluppo cloud per web-app con MariaDB e phpMyAdmin utilizzando Docker, assicurando che:
