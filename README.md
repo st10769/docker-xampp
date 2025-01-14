@@ -28,3 +28,6 @@ Questo script:
 ### 3. **File di configurazione `Docker`**
 - `docker-compose.yml` è stato adattato per consentire l'avvio di MariaDB ed evitare problemi di permessi su NixOS (cartella `mariadb_run`)
 - `Dockefile` è stato modificato per installare il gestore pacchetti di PHP (composer)
+
+## Integrazione con Github
+Se il push automatico fallisce, loggarsi manualmente da terminale con `gh auth login`, e successivamente dare `git push` sempre dalla shell.

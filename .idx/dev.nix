@@ -7,6 +7,7 @@
   packages = [
     pkgs.docker
     pkgs.docker-compose
+    pkgs.gh
   ];
   # Sets environment variables in the workspace
   env = {};
