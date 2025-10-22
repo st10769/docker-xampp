@@ -6,12 +6,126 @@
     <title>Prima pagina 5CM</title>
 </head>
 <body>
-    <!-- tag titolo da 1 a 7-->
-    <h1> 
-        Marconi Pieralisi - Jesi
-    </h1>
-    <h3> 
-        Sottotitolo
-    </h3>
+    <header>
+            <!-- tag titolo da 1 a 7-->
+        <h1> 
+            Marconi Pieralisi - Jesi
+        </h1>
+        <h3> 
+            Simulazione del sito della scuola
+        </h3>
+        <nav>   <!-- tag per la navbar barra orizzontale-->
+            <ul>    <!-- elenco non ordinato-->
+               <li><a href="">Informatica</a></li>
+               <li><a href="">Sistemi e reti</a></li>
+               <li><a href="">Tpsit</a></li>
+               <li><a href="">Italiano</a></li>
+               <li><a href="">Matematica</a></li>
+               <li><a href="">Inglese</a></li>
+               <li><a href="">Scienze Motorie</a></li>
+               <li><a href="">Storia</a></li>
+               <li><a href="">GPOI</a></li>
+               <li><a href="">Religione</a></li>
+               <li><a href="progettoAnno.html">Progetto dell'anno</a></li>
+             </ul>
+         </nav>
+    </header>
+    <h1 id="titolo">Pagina della classe 5CM</h1>
+    
+    <section name="laboratori">   <!--tag semantico che non viene visualizzato nella pagina -->
+      <!-- Elenco numerato dei laboratori di indirizzo (materie di indirizzo) -->
+     <ol>
+      <li>Laboratorio di Informatica 2-21</li>
+      <li>Laboratorio di Sistemi 2-20</li>
+      <li>Laboratorio di Tpsit 2-19</li>
+   </ol>
+
+   <section name="orario">
+        <p>Orario di lezione</p>
+        <table>
+            <tr> <!--riga-->
+                <th>Orario</th>
+                <th>Lunedi</th>
+                <th>Martedi</th>
+                <th>Mercoledi</th>
+                <th>Giovedi</th>
+                <th>Venerdi</th>
+                <th>Sabato</th>
+            </tr>
+            <tr>
+                <td> 1 ora </td>
+                <td rowspan="2"> Informatica </td>
+                <td rowspan="2"> Tpsit </td>
+                <td> Sistemi </td>
+                <td> Tpsit </td>
+                <td> Gpoi </td>
+                <td> Ia </td>
+            </tr>
+
+            <tr>
+                <td> 2 ora </td>
+                <td> Inglese </td>
+                <td rowspan="2"> Scienze motorie </td>
+                <td> Matematica </td>
+                <td rowspan="2"> Gpoi </td>
+            </tr>
+
+            <tr>
+                <td> 3 ora </td>
+                <td rowspan="2"> Sistemi e reti </td>
+                <td> Rec/pot </td>
+                <td> Italiano </td>
+                <td rowspan="2"> Inglese </td>
+            </tr>
+
+            <tr>
+                <td> 4 ora </td>
+                <td> Sistemi e reti </td>
+                <td rowspan="3"> Informatica </td>
+                <td> Storia </td>
+                <td> Matematica </td>
+            </tr>
+
+            <tr>
+                <td> 5 ora </td>
+                <td> Matematica </td>
+                <td> Italiano </td>
+                <td> Religione</td>
+                <td rowspan="2"> Italiano </td>
+                <td> Informatica</td>
+            </tr>
+
+            <tr>
+                <td> 6 ora </td>
+                <td> Storia </td>
+            </tr>
+
+
+        </table>
+   </section>
+
+   <section name="immagini"
+    <br>
+    <!-- 7. Link: link del sito della scuola, che si deve aprire in un'altra finestra -->
+
+    <a href="http://www.iismarconipieralisi.it"  rel="noopener noreferrer" target="_blank">Link al sito del IIS Marconi Pieralisi</a>
+    <br>
+
+    <!-- 8. Immagine: immagine della scuola, con il collegamento al sito della scuola -->
+    <a href="http://www.iismarconipieralisi.it" target="_blank" rel="noopener noreferrer"><img src="img/iisMarconiPieralisi.jpeg" alt="Iis Marconi Pieralisi">  </a>
+
+    <br>
+    </section>  
+    
+
+        <footer>
+        <p>
+            Indirizzo
+            Via Raffaello Sanzio, 8
+            60035 - JESI (AN)
+        </p>
+
+        </footer>
+    </section>
 </body>
 </html>
